@@ -449,10 +449,10 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: #323a45
 }
 a:hover, a:focus {
-    color: #73d0da;
+    color: #e87100;
     text-decoration: none;
 }
 .texture-overlay {
@@ -473,11 +473,11 @@ Buttons
     padding: 20px 50px;
     border-radius: 3px;
     background-color: #fff;
-    color: #4b98a9;
+    color: #e87100;
     font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #73d0da;
+    background-color: #e87100;
     color: #fff;
     text-decoration: none;
 }
@@ -490,8 +490,8 @@ Buttons
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: #e87100;
+    color: #e87100;
     text-decoration: none;
 }
 .read-more-btn {
@@ -581,7 +581,7 @@ Hero
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
-    background: rgb(40, 70, 102) url('../img/hero-01.jpg') no-repeat center center;
+    background-color: #421200;
     background-size: cover;
     color: #fff;
 }
@@ -616,7 +616,7 @@ Hero
 }
 .hero h1 span {
     display: inline-block;
-    color: #a1a9b0;
+    color: #694503;
 }
 #home {
     width: 100%;
@@ -635,7 +635,7 @@ Video
 ========================================================================== */
 section.video i {
     margin-right: 10px;
-    color: #323a45;
+    color: #751900;
     vertical-align: middle;
     font-size: 50px;
     -webkit-transition: color 300ms ease-in-out;
@@ -653,11 +653,11 @@ section.video a {
     color: #323a45
 }
 section.video a:hover, section.video a:focus {
-    color: #73d0da;
+    color: #e87100;
     text-decoration: none;
 }
 section.video a:hover i, section.video a:focus i {
-    color: #73d0da
+    color: #e87100
 }
 
 /* ==========================================================================
@@ -695,7 +695,7 @@ Features Slider
     position: relative;
     padding: 11% 100px 10% 100px;
     height: 400px;
-    background-color: #3F6184;
+    background-color: #751900;
 }
 .features-slider ul {
     margin: 0;
@@ -757,7 +757,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px #4e9ba3;
+    border: solid 2px #751900;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -765,7 +765,7 @@ Features List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #751900
 }
 
 /* ==========================================================================
@@ -956,7 +956,7 @@ Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #3f6184;
+    background-color: #421200;
 }
 .download h1 {
     margin: 0 0 15px 0;
@@ -1003,7 +1003,7 @@ Nav Overlay
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(52, 82, 113, 0.95);
+    background: rgba(117, 25, 0, 0.95);
 }
 
 /* Menu style */
@@ -1043,7 +1043,7 @@ Nav Overlay
     min-width: 190px;
     border: 2px solid #fff;
     border-radius: 3px;
-    background-color: #345271;
+    background-color: ##751900;
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
@@ -1052,8 +1052,8 @@ Nav Overlay
     transition: all 300ms ease-in-out;
 }
 .overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: #e87100;
+    color: #e87100;
 }
 
 /* Effects */
